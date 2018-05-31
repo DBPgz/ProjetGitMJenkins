@@ -2,16 +2,17 @@ package futurskill;
 
 
 public class Compteur {
-  int Count=0;
+  int Counter=0;
   int Increment() {
-	  return ++ Count ;
+	  return ++ Counter ;
   }
   int Decrement() {
-	  return -- Count;
+	  return -- Counter;
   }
   int getValeur() {
-	return Count;
+	return Counter;
 	  
   }
   
 }
+
